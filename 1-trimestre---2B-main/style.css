@@ -7,3 +7,10 @@
  .cabecalho-imagem {
         width: 20%;
   }
+
+  .cabecalho{
+background-image: url(./GreysCoverPhoto.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+width: 100%;
+  }
