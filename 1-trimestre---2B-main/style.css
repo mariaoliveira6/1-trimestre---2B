@@ -1,16 +1,23 @@
-  header {
-     background-color: rgb(69, 84, 160);
-     color: white;
-     display: flex;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
 
- .cabecalho-imagem {
-        width: 20%;
-  }
+.cabecalho {
+  background-color: #012463;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}
 
-  .cabecalho{
-background-image: url(./GreysCoverPhoto.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-width: 100%;
-  }
+.cabecalho-imagem{
+  width: 20%;
+}
+
+.cabecalho-lista-item{
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
